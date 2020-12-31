@@ -1,0 +1,32 @@
+body{
+    background: rgba(119, 52, 52, 0.7);
+    margin: 0;
+}
+.header{
+    padding: 2rem;
+    overflow: hidden;
+    width: 100vw;
+    text-align:center;
+    background: #aeb1b0;
+    color: rgb(17, 16, 16);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
