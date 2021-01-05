@@ -21,6 +21,16 @@
     align-items: center;
     height:100%;
 }
+
+.features-sub-head .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
 }
@@ -76,7 +86,7 @@
 .bg-light,
 .btn-light {
     background-color: var(--light-color);
-    color: #fff;
+    color: #333;
 }
 
 .bg-primary a,
